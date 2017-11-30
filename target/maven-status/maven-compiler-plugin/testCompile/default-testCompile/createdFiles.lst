@@ -1,0 +1,7 @@
+com/yourcompany/parallel/CommentText_scenario001_run001_IT.class
+com/yourcompany/parallel/FollowLink_scenario002_run001_IT.class
+com/yourcompany/Pages/GuineaPigPage.class
+com/yourcompany/utils/SauceUtils.class
+com/yourcompany/parallel/FollowLink_scenario001_run001_IT.class
+com/yourcompany/step/definitions/GuineaPigSteps.class
+com/yourcompany/parallel/CommentText_scenario002_run001_IT.class

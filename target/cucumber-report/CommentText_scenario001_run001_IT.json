@@ -1,0 +1,80 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11034990883,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GuineaPigSteps.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Can submit comment",
+        "description": "",
+        "id": "guinea-pig-comment;can-submit-comment",
+        "after": [
+          {
+            "result": {
+              "duration": 354808669,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GuineaPigSteps.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 635208286,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the Guinea Pig homepage",
+            "match": {
+              "location": "GuineaPigSteps.user_is_on_guinea_pig_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1078244888,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I submit a comment",
+            "match": {
+              "location": "GuineaPigSteps.user_submit_comment()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 159804029,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should see that comment displayed",
+            "match": {
+              "location": "GuineaPigSteps.comment_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Guinea Pig comment",
+    "description": "",
+    "id": "guinea-pig-comment",
+    "keyword": "Feature",
+    "uri": "parallel/features/CommentText_scenario001_run001_IT.feature"
+  }
+]

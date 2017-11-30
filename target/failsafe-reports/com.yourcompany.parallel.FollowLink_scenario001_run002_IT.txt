@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.yourcompany.parallel.FollowLink_scenario001_run002_IT
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 2, Skipped: 3, Time elapsed: 1.162 s <<< FAILURE! - in com.yourcompany.parallel.FollowLink_scenario001_run002_IT
+Scenario: Can follow link to another page  Time elapsed: 0.029 s  <<< ERROR!
+java.lang.NullPointerException: Name is null
+
+Scenario: Can follow link to another page  Time elapsed: 0.035 s  <<< ERROR!
+java.lang.NullPointerException
+

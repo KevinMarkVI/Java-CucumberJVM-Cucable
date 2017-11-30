@@ -1,0 +1,80 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11128958068,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GuineaPigSteps.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Can follow link to another page 2",
+        "description": "",
+        "id": "guinea-pig-link;can-follow-link-to-another-page-2",
+        "after": [
+          {
+            "result": {
+              "duration": 381410059,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GuineaPigSteps.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 684845002,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the Guinea Pig homepage",
+            "match": {
+              "location": "GuineaPigSteps.user_is_on_guinea_pig_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 460013109,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on the link",
+            "match": {
+              "location": "GuineaPigSteps.user_click_on_the_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 70296218,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should be on another page",
+            "match": {
+              "location": "GuineaPigSteps.new_page_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Guinea Pig link",
+    "description": "",
+    "id": "guinea-pig-link",
+    "keyword": "Feature",
+    "uri": "parallel/features/FollowLink_scenario002_run001_IT.feature"
+  }
+]
